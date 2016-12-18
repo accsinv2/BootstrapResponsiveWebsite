@@ -14,6 +14,7 @@
     <!-- including font awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
     
 
 </head>
@@ -188,6 +189,71 @@
                 </div>
             </div>
         </div>
+        
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align=center> <strong>Reserve a Table </strong></h3>
+            </div>
+             <div class="col-xs-12 col-sm-9">
+                <div class="container">
+                    <div class="row">
+                                <div class="col-xs-12 col-sm-2">                                
+                                    <h4 align=left>Number of</h4>
+                                     <h4>guests </h3>                               
+                                </div>
+                            
+                                <div class="col-xs-12 col-sm-10"> 
+                                    <p style="padding:1px 150px;"></p>  
+                                     <div class="radio-inline">
+                                     <label><input type="radio" name="optradio">1</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                     <label><input type="radio" name="optradio">2</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                    <label><input type="radio" name="optradio">3</label>
+                                    </div>
+                                     <div class="radio-inline">
+                                     <label><input type="radio" name="optradio">4</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                     <label><input type="radio" name="optradio">5</label>
+                                    </div>
+                                    <div class="radio-inline">
+                                    <label><input type="radio" name="optradio">6</label>
+                                    </div>
+                               </div>            
+                        </div>
+                    <div class="row">
+                                <div class="col-xs-12 col-sm-2">                                
+                                    <h4 align=left>Date and Time</h4>                               
+                                </div>
+                            
+                                <div class="col-xs-12 col-sm-3"> 
+                                   
+                                    <div class="form-group">
+                                        <div class='input-group date' id='datetimepicker1'>
+                                            <input type='text' class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script type="text/javascript">
+                                $(function () {
+                                $('#datetimepicker1').datetimepicker();
+                                });
+                                </script>
+                        </div>
+                    
+                     </div>
+                 </div>
+            </div>
+        </div>    
+        
+        
     </div>
 
     <footer class="row-footer">
