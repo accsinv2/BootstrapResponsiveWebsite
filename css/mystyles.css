@@ -64,6 +64,12 @@ body{
     color:#000000;
 }
 
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 <!-- Added padding to body so that the navbar dosent hide the body part on scrolling -->
 <!-- Color of dropdown in sync -->
 <!-- Active element color stays darker -->
