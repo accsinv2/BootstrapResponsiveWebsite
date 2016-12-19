@@ -70,6 +70,10 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.affix {
+    top:100px;
+}
 <!-- Added padding to body so that the navbar dosent hide the body part on scrolling -->
 <!-- Color of dropdown in sync -->
 <!-- Active element color stays darker -->
