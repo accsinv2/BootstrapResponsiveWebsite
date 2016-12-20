@@ -74,6 +74,10 @@ body{
 .affix {
     top:100px;
 }
+
+.modal-backdrop {
+    z-index: 1020;
+}
 <!-- Added padding to body so that the navbar dosent hide the body part on scrolling -->
 <!-- Color of dropdown in sync -->
 <!-- Active element color stays darker -->
